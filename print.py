@@ -37,4 +37,4 @@ print(f'O valor é \'{valor:.2f}\'')
 
 nome = 'João'
 idade = 32
-print(f'Nome: {nome}\tIdade:  {idade}')
+print(f'Nome: {nome}\tIdade: {idade}')
