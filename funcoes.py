@@ -40,14 +40,35 @@
 # else:
 #     print('Erro')
 
-def quadrado(val):
-    quadrados = []
-    for x in val:
-        quadrados.append(x ** 2)
-    return quadrados
+# def quadrado(val):
+#     quadrados = []
+#     for x in val:
+#         quadrados.append(x ** 2)
+#     return quadrados
+
+# if __name__ == '__main__':
+#     valores = [2,5,7,9,12]
+#     resultados = quadrado(valores)
+#     for g in resultados:
+#         print(g)
+
+# def contar(num, caractere):
+#     for i in range(1,  num):
+#         print(caractere)
+    
+# if __name__ == '__main__':
+#     contar(6, '@')
+
+x = 5
+y = 6
+z = 3
+
+def soma_mult(a, b, c =0):
+    if c == 0:
+        return a * b
+    else:
+        return a + b + c
 
 if __name__ == '__main__':
-    valores = [2,5,7,9,12]
-    resultados = quadrado(valores)
-    for g in resultados:
-        print(g)
+    res = soma_mult(x, y)
+    print(res)
